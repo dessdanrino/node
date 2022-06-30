@@ -103,6 +103,6 @@ app.get("/verifyToken", (req, res) => {
 let port = 1206;
 app.listen(port, () => {
   console.log("=========================");
-  console.log("=====listening to port " + port);
+  console.log("=====listening to" + port);
   console.log("=========================");
 });
